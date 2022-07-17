@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+   
+}
+
+.maincard{
+    width: 250px;
+    height: 440px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 650px;
+    top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.pic{
+    width: 220px;
+    margin-top: 15.5px;
+    margin-left: 15.5px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+.pic:hover{
+    opacity: 0.3;
+    
+}
+
+.equilibrium{
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+    margin-left: 20px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.balancematter{
+    color: hsl(215, 51%, 70%);
+    opacity: 70%;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 16px;
+    margin-left: 20px;
+    font-size: 13px;
+    padding-right: 10px;
+    font-weight: 100;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(216, 50%, 16%);
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+.ethereum{
+    background-color: hsl(216, 50%, 16%);
+    height: 15px;
+    
+}
+
+.rate{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(178, 100%, 50%);
+    margin-left: 6px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.clock{
+    height: 15px;
+    background-color: hsl(216, 50%, 16%);
+    margin-left: 65px;
+}
+
+.daysleft{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.horline{
+    background-color: hsl(215, 32%, 27%);
+    height: 0px;
+    width: 220px;
+    margin-left: 13px;
+    margin-top: 20px;
+    opacity: 30%;
+}
+
+.creator{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.creatorimage{
+    width: 30px;
+    margin-left: 18px;
+    margin-top: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creatormatter{
+    background-color: hsl(216, 50%, 16%);
+    margin-left: 13px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+    opacity: 70%;
+
+}
+
+a{
+    color: white;
+    opacity: 80%;
+    background-color: hsl(216, 50%, 16%);
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+    
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .maincard{
+        width: 250px;
+        height: 440px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 60px;
+        top: 80px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+
+}
